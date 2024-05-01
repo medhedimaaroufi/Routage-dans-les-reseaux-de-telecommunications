@@ -9,13 +9,13 @@ Ce dépôt contient les implémentations des algorithmes de Ford-Bellman et de D
 
 ## Utilisation
 1. Cloner le dépôt :
-    '''bash
+    ```bash
     git clone https://github.com/medhedimaaroufi/Routage-dans-les-reseaux-de-telecommunications.git
 2. Accéder au répertoire du projet :
-    '''bash
+    ```bash
     cd Routage-dans-les-reseaux-de-telecommunications
 3. Compiler et exécuter l'algorithme désiré :
-    '''bash
+    ```bash
     gcc -o Test main.c
     ./Test
 
