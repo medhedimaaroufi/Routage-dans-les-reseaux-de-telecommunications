@@ -3,6 +3,8 @@
 ## Introduction
 Ce dépôt contient les implémentations des algorithmes de Ford-Bellman et de Dijkstra pour le routage dans les réseaux de télécommunications. Le but principal est de comparer leurs performances et leurs résultats dans divers scénarios de réseau.
 
+![Situation](https://github.com/medhedimaaroufi/Routage-dans-les-reseaux-de-telecommunications/blob/main/situation.png)
+
 ## Algorithmes Implémentés
 - Algorithme de Ford-Bellman
 - Algorithme de Dijkstra
