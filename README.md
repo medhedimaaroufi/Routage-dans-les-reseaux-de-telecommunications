@@ -26,11 +26,11 @@ Ce dépôt contient les implémentations des algorithmes de Ford-Bellman et de D
 - Les résultats de l'exécution de l'algorithme et les comparaisons de performances sont :
 ### Matrice Distance
 
-![Matrice Distance](https://github.com/medhedimaaroufi/Routage-dans-les-reseaux-de-telecommunications/MatriceDistance.png)
+![Matrice Distance](https://github.com/medhedimaaroufi/Routage-dans-les-reseaux-de-telecommunications/blob/main/MatriceDistance.png)
 
 ### Résultat Belman Ford
 
-![Résultat Belman Ford](https://github.com/medhedimaaroufi/Routage-dans-les-reseaux-de-telecommunications/ResultatBelmanFord.png)
+![Résultat Belman Ford](https://github.com/medhedimaaroufi/Routage-dans-les-reseaux-de-telecommunications/blob/main/ResultatBelmanFord.png)
 
 ### Résultat Dijkstra
 
