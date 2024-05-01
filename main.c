@@ -48,11 +48,14 @@ void affiche_Lambda(float Lambda[Nbs],int nb_sommets){
     printf("\n");
 }
 
-void affiche_chemin(int chemin[Nbs],int nb_sommets){
+void affiche_chemin(int sommet, int chemin[Nbs],int nb_sommets){
     int i;
-    printf("le chemin le plus court est : ");
+    printf("le chemin le plus court pour aller a %d est : ", sommet) ;
     for(i=nb_sommets-1;i>=0;i--){
-        printf("%d ",chemin[i]);
+        if (chemin[i]==sommet){
+            printf("%d", sommet);
+        }
+        else printf("%d -> ",chemin[i]);
     }
     printf("\n");
 }
@@ -198,7 +201,7 @@ int main() {
     affiche_P(PF,nb_sommets);
     printf("\n");
     for (c=0;c<nb_sommets;c++){
-        affiche_chemin(cheminF, Plus_Court_Chemins(c+1,cheminF,PF, nb_sommets));
+        affiche_chemin(c+1,cheminF, Plus_Court_Chemins(c+1,cheminF,PF, nb_sommets));
     }
 
     printf("\n\n\n\n-- Resultats Dijkstra :\n");
@@ -210,7 +213,7 @@ int main() {
     affiche_P(PD, nb_sommets);
     printf("\n");
     for (c=0;c<nb_sommets;c++){
-        affiche_chemin(cheminD, Plus_Court_Chemins(c+1, cheminD, PD, nb_sommets));
+        affiche_chemin(c+1,cheminD, Plus_Court_Chemins(c+1, cheminD, PD, nb_sommets));
     }
 
     printf("\n");
