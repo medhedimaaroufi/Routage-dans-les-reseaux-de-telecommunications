@@ -36,7 +36,7 @@ Ce dépôt contient les implémentations des algorithmes de Ford-Bellman et de D
 
 ### Résultat Dijkstra
 
-![Résultat Dijkstra](https://github.com/medhedimaaroufi/Routage-dans-les-reseaux-de-telecommunications/blob/main/ResultatBelmanFord.png)
+![Résultat Dijkstra](https://github.com/medhedimaaroufi/Routage-dans-les-reseaux-de-telecommunications/blob/main/ResultatDijkstra.png)
 
 # Environnement de developpement
 - OS: Linux
