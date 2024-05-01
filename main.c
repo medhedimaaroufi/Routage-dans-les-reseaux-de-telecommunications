@@ -1,3 +1,7 @@
+// Consultez https://github.com/medhedimaaroufi/Routage-dans-les-reseaux-de-telecommunications
+// pour plus d'information sur le projet.
+
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
