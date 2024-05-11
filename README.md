@@ -46,5 +46,3 @@ Ce dépôt contient les implémentations des algorithmes de Ford-Bellman et de D
 - Ce projet est réalisé le 1 mai 2024 par :
     - Mohamed Hedi Maaroufi
     - Karimen Ben Romdhane
-    - Hamed Slim
-    - Ferdaous Bouatay
